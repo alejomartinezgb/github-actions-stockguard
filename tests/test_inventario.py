@@ -14,8 +14,8 @@ def test_stock_bajo():
     assert clasificar_stock(15, 20) == "BAJO"
 
 
-def test_stock_normal():
-    assert clasificar_stock(30, 20) == "NORMAL"
+def test_stock_critico():
+    assert clasificar_stock(7, 20) == "CRITICO"
 
 
 def test_stock_invalido():
